@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # Everyone else, S0, is susceptible to infection initially.
     S0 = N - I0 - R0
     # Contact rate, beta, and mean recovery rate, gamma, (in 1/days).
-    beta, gamma= 0.157, 1./20
+    beta, gamma = 0.157, 1./20
     # A grid of time points (in days)
     t = np.linspace(0, 183, 183)
     # The SIR model differential equations.
